@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Public+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #302C42;
+}
+.container{
+    width: 1272px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* settings end */
+ul li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+button.btn {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    transition: 0.3s;
+    padding: 17px 38px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+button.btn:active{
+    transform: translateY(2px) scale(0.98);
+}
+.wrapper{
+    width: 100%;
+    background: #302C42;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #302C42;
+    margin: 0 auto;
+}
+header .header-img img{
+    width: 102px;
+    height: 103px;
+}
+.nav .nav-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 42px;
+}
+.nav .nav-content li{
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+main{
+    width: 100%;
+    background: #302C42;
+}
+main .main-content{
+    width: 1272px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 103px;
+}
+main .main-content .main-el{
+    width: 456px;
+    background: #302C42;
+}
+main .main-content .main-el svg{
+    color: #C0B7E8;
+    width: 50px;
+    height: 50px;
+}
+span{
+    color: white;
+}
+.blog{
+    display: flex;
+    column-gap: 15px;
+}
+main .main-content .main-el h1{
+    padding-bottom: 36px;
+    /* width: 456px; */
+    font-family: "Montserrat";
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+main .main-content .main-el p{
+    padding-bottom: 66px;
+}
+section{
+    width: 100%;
+    background: #302C42;
+}
+.section-content{
+    width: 1272px;
+    height: 167px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 90px;
+    /* margin-top: 103px; */
+}
+.section-content .section-el svg{
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #C0B7E8;
+}
+.section-el{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.section-el h4{
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.section-el a{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.elements{
+    width: 100%;
+    background: #302C42;
+}
+.card{
+    width: 1272px;
+    height: 716px;
+    align-items: end;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 10px;
+}
+.element{
+    width: 310px;
+    height: 511px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    padding: 23px 25px 40px 25px;
+}
+.element img{
+    width: 190px;
+    height: 190px;
+    padding-top: 23px;
+}
+.element h3{
+    padding-top: 21px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-bottom: 17px;
+    color: #FFFFFF;
+}
+.element hr{
+    color: #C0B7E854;
+    width: 154px;
+    height: 0;
+}
+.element p{
+    padding-top: 21px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.element .btn{
+    margin-top: 35px;
+}
